@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deform2tsunami"
+version = "0.1.0"
+description = "Export seafloor deformation and tsunami initial conditions as geographic rasters"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["h5py", "matplotlib", "numpy", "rasterio>=1.3"]
+
+[project.scripts]
+deform2tsunami = "deform2tsunami:main"
+
+[tool.setuptools]
+py-modules = ["deform2tsunami"]
