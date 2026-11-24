@@ -61,6 +61,6 @@ For rapid bed motion, the constant-depth amplitude transfer is **1/cosh(|k|h)**,
 
 Dry and out-of-mesh points supply zero bottom forcing. The continuous filtered response is bilinearly sampled at pixel centers whose original terrain elevation is below zero. Around source boundaries the result assumes zero forcing beyond the available mesh. This shoreline convention differs from the conservative fully wet triangle rule for exporting archived values. The working grid and margins are independent of the requested lon/lat pixel spacing. The original permanent bed change and the initial water-surface elevation serve different roles in a tsunami model.
 
-For the homogeneous full-margin T100 example, the notebook's Oregon box at 30 arcseconds yields 204 columns by 132 rows. Approximate maxima are 9.28 m vertical ground displacement, 10.87 m effective bed change, and 7.43 m recomputed initial water-surface elevation.
+For the homogeneous full-margin T100 example, the notebook covers Cascadia from 130.5°W to 121°W and 39.6°N to 51°N. At 30 arcseconds the rasters have 1,140 columns and 1,368 rows. Approximate maxima are 12.83 m vertical ground displacement, 14.70 m effective bed change, and 10.90 m recomputed initial water-surface elevation.
 
 [Kajiura (1963)](https://doi.org/10.15083/0000033711) · [Abbate et al. (2024), variable-depth generation](https://doi.org/10.5194/nhess-24-2773-2024)
